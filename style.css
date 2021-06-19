@@ -1,0 +1,44 @@
+body, 
+    
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(USS\ Arizona.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+h1 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#049DD9,#035AA6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-success {
+    background-color:#04C4D9;
+    border-color: #04C4D9;
+}
+
+.btn-success:hover {
+    background-color: #049DD9;
+    border-color: #049DD9;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
